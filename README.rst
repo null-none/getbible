@@ -1,5 +1,8 @@
 Class for use https://getbible.net/
 
+.. image:: https://badge.fury.io/py/api-bible.svg
+    :target: https://pypi.python.org/pypi/api-bible
+
 =======
 Install
 =======
