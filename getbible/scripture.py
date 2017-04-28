@@ -8,7 +8,6 @@ class API(object):
 
     def result(self):
         params = urllib.urlencode(self.params)
-        print params
         response = urllib.urlopen("https://getbible.net/json?{0}".format(params))
         data = response.read()
         data = data.replace(data[:1], '')
