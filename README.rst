@@ -17,16 +17,23 @@ Example
 
 .. code-block:: python
 
-    from getbible.scripture import API
+    from getbible import scripture
 
     params = {'ver': 'makarij'}
 
-    bible = API(params)
+    bible = scripture.API(params)
 
     print bible.result()
 
     params = {'p': 'James'}
 
-    bible = API(params)
+    bible = scripture.API(params)
 
     print bible.result()
+
+=======
+Donation
+=======
+
+.. image:: https://img.shields.io/badge/Donate-PayPal-green.svg
+  :target: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YYZQ6ZRZ3EW5C
